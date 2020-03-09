@@ -28,10 +28,15 @@ public class PersonajeScript : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        
-    }
+   private void OnTriggerEnter2D(Collider2D other)
+   {
+
+       if (other.gameObject.CompareTag("floor"))
+       {
+           BoxCollider2D boxCollider_ = other.gameObject.GetComponent<BoxCollider2D>();
+           boxCollider_.offset = Vector2.zero;
+       }
+   }
 
 
     // Update is called once per frame
