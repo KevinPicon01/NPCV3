@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1ee53092-bcb5-4b4a-815e-3911189beac4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NPCV3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NPCV3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Square (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Square (1).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PersonajeScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PersonajeScript.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PersonajeScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="96">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="34" />
               <folding>
                 <marker date="1583723344663" expanded="true" signature="6:127" ph="..." />
                 <marker date="1583723344663" expanded="true" signature="173:1377" ph="{...}" />
@@ -35,11 +33,31 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+              <folding>
+                <marker date="1583726303747" expanded="true" signature="6:127" ph="..." />
+                <marker date="1583726303747" expanded="true" signature="168:1154" ph="{...}" />
+                <marker date="1583726303747" expanded="true" signature="327:370" ph="{...}" />
+                <marker date="1583726303747" expanded="true" signature="388:849" ph="{...}" />
+                <marker date="1583726303747" expanded="true" signature="424:669" ph="{...}" />
+                <marker date="1583726303747" expanded="true" signature="683:843" ph="{...}" />
+                <marker date="1583726303747" expanded="true" signature="906:1093" ph="{...}" />
+                <marker date="1583726303747" expanded="true" signature="1016:1087" ph="{...}" />
+                <marker date="1583726303747" expanded="true" signature="1131:1152" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../NPC/Assets/Scripts/Movement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="61" selection-end-column="69" />
+            <state relative-caret-position="360">
+              <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -60,6 +78,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../NPC/Assets/Scripts/Movement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PersonajeScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../NPC/Assets/Scripts/CameraMov.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -67,6 +86,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PersonajeScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -77,7 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="116" />
     <option name="y" value="120" />
     <option name="width" value="1386" />
@@ -153,12 +173,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583717573405</updated>
-      <workItem from="1583717612587" duration="5365000" />
+      <workItem from="1583717612587" duration="8137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5365000" />
+    <option name="totallyTimeSpent" value="8137000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -170,11 +190,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="116" y="120" width="1386" height="761" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962293" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17634523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -225,15 +245,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../NPC/Assets/Scripts/Movement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="61" selection-end-column="69" />
+        <state relative-caret-position="360">
+          <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PersonajeScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="34" />
           <folding>
             <marker date="1583723344663" expanded="true" signature="6:127" ph="..." />
             <marker date="1583723344663" expanded="true" signature="173:1377" ph="{...}" />
@@ -245,6 +265,24 @@
             <marker date="1583723344663" expanded="true" signature="853:1006" ph="{...}" />
             <marker date="1583723344663" expanded="true" signature="1070:1091" ph="{...}" />
             <marker date="1583723344663" expanded="true" signature="1123:1375" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding>
+            <marker date="1583726303747" expanded="true" signature="6:127" ph="..." />
+            <marker date="1583726303747" expanded="true" signature="168:1154" ph="{...}" />
+            <marker date="1583726303747" expanded="true" signature="327:370" ph="{...}" />
+            <marker date="1583726303747" expanded="true" signature="388:849" ph="{...}" />
+            <marker date="1583726303747" expanded="true" signature="424:669" ph="{...}" />
+            <marker date="1583726303747" expanded="true" signature="683:843" ph="{...}" />
+            <marker date="1583726303747" expanded="true" signature="906:1093" ph="{...}" />
+            <marker date="1583726303747" expanded="true" signature="1016:1087" ph="{...}" />
+            <marker date="1583726303747" expanded="true" signature="1131:1152" ph="{...}" />
           </folding>
         </state>
       </provider>
