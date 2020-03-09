@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PersonajeScript : MonoBehaviour
 {
@@ -21,9 +22,17 @@ public class PersonajeScript : MonoBehaviour
         {
             rb2d.AddForce(Vector2.up * (fuerzaSalto * 100));
         }
+        if(other.gameObject.CompareTag("Finish"))
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
     }
 
-    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        
+    }
+
 
     // Update is called once per frame
     void Update()
