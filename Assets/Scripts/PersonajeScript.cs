@@ -18,7 +18,7 @@ public class PersonajeScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("floor"))
+        if (other.gameObject.CompareTag("floor") && rb2d.velocity.y <= 0)
         {
             rb2d.AddForce(Vector2.up * (fuerzaSalto * 100));
         }
@@ -44,9 +44,28 @@ public class PersonajeScript : MonoBehaviour
     {
         
     }
-
-    private void FixedUpdate()
+    void FixedUpdate()
     {
+        
+            if (Input.touchCount > 0)
+            {
+                var touch = Input.GetTouch(0);
+                if (touch.position.x < Screen.width / 2)
+                {
+                    
+                    transform.position += Vector3.left * velocidadMov /1000;
+                }
+                else
+                {
+                    transform.position += Vector3.right * velocidadMov /1000;
+                }
+
+            }
+            
+    
+
+        
+            
         if (Input.GetAxis("Horizontal") < 0)
             transform.position += Vector3.left * velocidadMov /1000;
         
