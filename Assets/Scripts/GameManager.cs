@@ -9,7 +9,8 @@ public class GameManager : MonoBehaviour
 {
     public bool pausa ;
     public GameObject camera;
-    public GameObject menuPausa;
+    public int contador = 9;
+    public GameObject menuPausa; 
     [SerializeField] private GameObject componente1;
     [SerializeField] private GameObject componente2;
     [SerializeField] private GameObject componente3;
@@ -23,7 +24,15 @@ public class GameManager : MonoBehaviour
     private List<GameObject> componentes = new List<GameObject>();
     // Start is called before the first frame update
     void Start()
-    { 
+    {
+        GenerarNivel();
+    }
+
+
+
+    void GenerarNivel()
+    {
+       
         Random rnd = new Random();
         pausa = true;
         Time.timeScale = 1.0f;
@@ -37,14 +46,21 @@ public class GameManager : MonoBehaviour
         componentes.Add(componente8);
         componentes.Add(componente9);
         componentes.Add(componente10);
-       for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 10; i++)
         {
-            var value = rnd.Next(0, 9);
             
-            componentes[value].gameObject.transform.position = new Vector3(0,i * 10,0);
+            var value = rnd.Next(0, contador);
+            int pos = i * 10;
+            
+            componentes[value].gameObject.transform.position  = new Vector3(-25,pos,0);
+                
             componentes.RemoveAt(value);
+
+            contador = contador - 1;
+            Debug.Log(pos);
         }
     }
+
     void Pausar()
     {
           
