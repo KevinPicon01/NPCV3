@@ -8,7 +8,7 @@ public class PersonajeScript : MonoBehaviour
 {
     [SerializeField]  private int fuerzaSalto;
     private Rigidbody2D rb2d;
-
+    
     [SerializeField] private int velocidadMov;
     // Start is called before the first frame update
     void Start()
