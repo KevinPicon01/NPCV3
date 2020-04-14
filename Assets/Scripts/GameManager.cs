@@ -57,7 +57,7 @@ public class GameManager : MonoBehaviour
             componentes.RemoveAt(value);
 
             contador = contador - 1;
-            Debug.Log(pos);
+            
         }
     }
 
