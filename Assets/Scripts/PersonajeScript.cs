@@ -8,16 +8,18 @@ public class PersonajeScript : MonoBehaviour
 {
     [SerializeField]  private int fuerzaSalto;
     private Rigidbody2D rb2d;
-    
+    private GameManager controlPausa;
     [SerializeField] private int velocidadMov;
     // Start is called before the first frame update
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        controlPausa = FindObjectOfType<GameManager>();
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        
         if (other.gameObject.CompareTag("floor") && rb2d.velocity.y <= 0)
         {
             rb2d.AddForce(Vector2.up * (fuerzaSalto * 100));
@@ -26,6 +28,7 @@ public class PersonajeScript : MonoBehaviour
         {
             SceneManager.LoadScene("SampleScene");
         }
+        
     }
 
    private void OnTriggerEnter2D(Collider2D other)
@@ -33,17 +36,20 @@ public class PersonajeScript : MonoBehaviour
 
        if (other.gameObject.CompareTag("floor"))
        {
-           BoxCollider2D boxCollider_ = other.gameObject.GetComponent<BoxCollider2D>();
-           boxCollider_.offset = Vector2.zero;
+           BoxCollider2D boxCollider = other.gameObject.GetComponent<BoxCollider2D>();
+           boxCollider.offset = Vector2.zero;
+       }
+       if(other.gameObject.CompareTag("Tip"))
+       {
+
+          controlPausa.pausa=true;
+
        }
    }
 
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
     void FixedUpdate()
     {
         

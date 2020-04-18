@@ -7,7 +7,10 @@ using Random = System.Random;
 
 public class GameManager : MonoBehaviour
 {
-    public bool pausa ;
+    [SerializeField] private GameObject time;
+    public bool pausa  ;
+    
+    [SerializeField]private int tiempoPausa;
     public GameObject camera;
     public int contador = 9;
     public GameObject menuPausa; 
@@ -25,7 +28,9 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        pausa = false;
         GenerarNivel();
+        
     }
 
 
@@ -34,8 +39,7 @@ public class GameManager : MonoBehaviour
     {
        
         Random rnd = new Random();
-        pausa = true;
-        Time.timeScale = 1.0f;
+        
         componentes.Add(componente1);
         componentes.Add(componente2);
         componentes.Add(componente3);
@@ -61,29 +65,34 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void Pausar()
-    {
-          
-        if (pausa)
-        {
-            Time.timeScale = 0.0f;
-            pausa = false;
-            menuPausa.transform.SetPositionAndRotation(new Vector3(camera.transform.position.x,camera.transform.position.y,1), Quaternion.identity); 
-            
-        }
+    
 
-        else
-        {
-            Time.timeScale = 1.0f;
-            pausa = true;
-            menuPausa.gameObject.transform.Translate(new Vector3(10f,10f,0f));
-        }
+    public void Pausar()
+    {
+           var position = camera.transform.position;
+           position.z = 1;
+            menuPausa.transform.position = position;
+
+           Time.timeScale = 0.0f;
+
+
+           if (Input.touchCount <= 0 && !Input.anyKeyDown) return;
+           pausa = false;
+           Time.timeScale = 1.0f;
+           menuPausa.transform.position = new Vector3(50,50,0);
+
+
+
+
+
     }
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
-        if(Input.GetKeyDown(KeyCode.P))
+        if (pausa)
+        {
             Pausar();
+        }
 
         if (Input.GetKeyDown(KeyCode.R))
         {
@@ -92,11 +101,8 @@ public class GameManager : MonoBehaviour
             
         }
     }
-
+   
     
 
-    private void FixedUpdate()
-    {
-        
-    }
+ 
 }
