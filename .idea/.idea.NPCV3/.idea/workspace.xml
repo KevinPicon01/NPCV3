@@ -40,7 +40,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="1416">
               <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
               <folding>
                 <marker date="1586898567405" expanded="true" signature="6:157" ph="..." />
@@ -181,12 +181,12 @@
       <updated>1583717573405</updated>
       <workItem from="1583717612587" duration="9570000" />
       <workItem from="1584741040927" duration="5761000" />
-      <workItem from="1586892634488" duration="3064000" />
+      <workItem from="1586892634488" duration="3649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18395000" />
+    <option name="totallyTimeSpent" value="18980000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -199,7 +199,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1310602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -282,7 +281,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="1416">
           <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
           <folding>
             <marker date="1586898567405" expanded="true" signature="6:157" ph="..." />
