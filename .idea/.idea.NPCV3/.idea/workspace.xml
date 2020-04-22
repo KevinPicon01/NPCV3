@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1ee53092-bcb5-4b4a-815e-3911189beac4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NPCV3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NPCV3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PersonajeScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PersonajeScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Activable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Activable.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PersonajeScript.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="508">
-              <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
               <folding>
                 <marker date="1587569980659" expanded="true" signature="6:127" ph="..." />
                 <marker date="1587569980659" expanded="true" signature="173:2089" ph="{...}" />
@@ -61,14 +60,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Activable.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="436">
+              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding>
-                <marker date="1587569737768" expanded="true" signature="6:130" ph="..." />
-                <marker date="1587569737768" expanded="true" signature="169:563" ph="{...}" />
-                <marker date="1587569737768" expanded="true" signature="241:281" ph="{...}" />
-                <marker date="1587569737768" expanded="true" signature="301:482" ph="{...}" />
-                <marker date="1587569737768" expanded="true" signature="540:561" ph="{...}" />
+                <marker date="1587573487346" expanded="true" signature="6:130" ph="..." />
+                <marker date="1587573487346" expanded="true" signature="169:652" ph="{...}" />
+                <marker date="1587573487346" expanded="true" signature="323:363" ph="{...}" />
+                <marker date="1587573487346" expanded="true" signature="383:571" ph="{...}" />
+                <marker date="1587573487346" expanded="true" signature="629:650" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -86,8 +85,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../NPC/Assets/Scripts/CameraMov.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="480">
+              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FinalQuiz.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <marker date="1587576669884" expanded="true" signature="6:78" ph="..." />
+                <marker date="1587576669884" expanded="true" signature="120:503" ph="{...}" />
+                <marker date="1587576669884" expanded="true" signature="299:320" ph="{...}" />
+                <marker date="1587576669884" expanded="true" signature="378:501" ph="{...}" />
+                <marker date="1587576669884" expanded="true" signature="417:494" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,6 +115,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../NPC/Assets/Scripts/Movement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FinalQuiz.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PersonajeScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Activable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../NPC/Assets/Scripts/CameraMov.cs" root0="FORCE_HIGHLIGHTING" />
@@ -108,8 +124,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Activable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PersonajeScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Activable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FinalQuiz.cs" />
       </list>
     </option>
   </component>
@@ -200,12 +217,12 @@
       <workItem from="1584741040927" duration="5761000" />
       <workItem from="1586892634488" duration="3649000" />
       <workItem from="1587174894835" duration="10828000" />
-      <workItem from="1587569201396" duration="893000" />
+      <workItem from="1587569201396" duration="4220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30701000" />
+    <option name="totallyTimeSpent" value="34028000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -218,7 +235,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13319126" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -270,27 +286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../NPC/Assets/Scripts/CameraMov.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Activable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <marker date="1587569737768" expanded="true" signature="6:130" ph="..." />
-            <marker date="1587569737768" expanded="true" signature="169:563" ph="{...}" />
-            <marker date="1587569737768" expanded="true" signature="241:281" ph="{...}" />
-            <marker date="1587569737768" expanded="true" signature="301:482" ph="{...}" />
-            <marker date="1587569737768" expanded="true" signature="540:561" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -312,7 +307,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PersonajeScript.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
-          <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
           <folding>
             <marker date="1587569980659" expanded="true" signature="6:127" ph="..." />
             <marker date="1587569980659" expanded="true" signature="173:2089" ph="{...}" />
@@ -327,6 +322,41 @@
             <marker date="1587569980659" expanded="true" signature="1398:1800" ph="{...}" />
             <marker date="1587569980659" expanded="true" signature="1516:1650" ph="{...}" />
             <marker date="1587569980659" expanded="true" signature="1671:1785" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Activable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <marker date="1587573487346" expanded="true" signature="6:130" ph="..." />
+            <marker date="1587573487346" expanded="true" signature="169:652" ph="{...}" />
+            <marker date="1587573487346" expanded="true" signature="323:363" ph="{...}" />
+            <marker date="1587573487346" expanded="true" signature="383:571" ph="{...}" />
+            <marker date="1587573487346" expanded="true" signature="629:650" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NPC/Assets/Scripts/CameraMov.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FinalQuiz.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <marker date="1587576669884" expanded="true" signature="6:78" ph="..." />
+            <marker date="1587576669884" expanded="true" signature="120:503" ph="{...}" />
+            <marker date="1587576669884" expanded="true" signature="299:320" ph="{...}" />
+            <marker date="1587576669884" expanded="true" signature="378:501" ph="{...}" />
+            <marker date="1587576669884" expanded="true" signature="417:494" ph="{...}" />
           </folding>
         </state>
       </provider>

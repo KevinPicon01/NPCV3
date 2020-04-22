@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="Activable.cs" t="Include" />
           <e p="CameraMov.cs" t="Include" />
+          <e p="FinalQuiz.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="PersonajeScript.cs" t="Include" />
         </e>
