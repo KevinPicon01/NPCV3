@@ -43,7 +43,7 @@ public class PersonajeScript : MonoBehaviour
        {
 
           controlPausa.pausa=true;
-
+          other.enabled = false;
        }
    }
 
